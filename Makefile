@@ -9,3 +9,6 @@ create-app:
 
 start:
 	./start.sh
+
+router:
+	npm install react-router-dom
