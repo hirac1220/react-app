@@ -15,3 +15,6 @@ router:
 
 axios:
 	npm install axios
+
+express:
+	yarn add express express-favicon path
