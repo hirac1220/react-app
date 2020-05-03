@@ -1,17 +1,17 @@
-SHELL = $(PWD)/SHELL
+SHELL = $(PWD)/scripts/SHELL
 
 check:
 	node -v
 	npm -v
 
 create:
-	./create.sh
+	./scripts/create.sh
 
 start:
-	./start.sh
+	./scripts/start.sh
 
 install:
-	./install.sh
+	./scripts/install.sh
 
 deploy:
-	./deploy.sh
+	./scripts/deploy.sh
