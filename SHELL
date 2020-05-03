@@ -4,4 +4,5 @@ source env.sh
 
 exec env \
 APP=${APP} \
+HEROKU_APP=${HEROKU_APP} \
 bash "$@"
