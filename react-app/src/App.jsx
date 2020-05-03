@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <h1>react app</h1>
+        <h1>Frontend Booklist</h1>
         <ul>
           <li><Link to='/'>React</Link></li>
           <li><Link to='/vue'>Vue</Link></li>
